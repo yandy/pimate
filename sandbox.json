@@ -1,0 +1,3 @@
+{
+  "hostCommands": ["git", "gh", "dws", "lark-cli", "glab", "playwright", "playwright-cli"]
+}

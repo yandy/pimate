@@ -1,0 +1,11 @@
+{
+  "packages": [
+    "npm:@yandy0725/pi-web-tools",
+    "npm:@yandy0725/pi-container-sandbox"
+  ],
+  "lastChangelogVersion": "0.79.9",
+  "defaultProvider": "deepseek",
+  "defaultModel": "deepseek-v4-flash",
+  "defaultThinkingLevel": "high",
+  "theme": "dark"
+}

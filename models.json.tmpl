@@ -1,0 +1,72 @@
+{
+  "providers": {
+    "xiaomi": {
+      "baseUrl": "https://api.xiaomimimo.com/anthropic",
+      "api": "anthropic-messages",
+      "apiKey": "${XIAOMI_API_KEY}",
+      "models": [
+        {
+          "id": "mimo-v2.5",
+          "name": "MiMo-V2.5",
+          "reasoning": true,
+          "contextWindow": 1048576,
+          "maxTokens": 131072,
+          "input": ["text", "image"],
+          "cost": { "input": 1, "output": 2, "cacheRead": 0.02, "cacheWrite": 0 }
+        },
+        {
+          "id": "mimo-v2.5-pro",
+          "name": "MiMo-V2.5-Pro",
+          "reasoning": true,
+          "contextWindow": 1048576,
+          "maxTokens": 131072,
+          "input": ["text"],
+          "cost": { "input": 3, "output": 6, "cacheRead": 0.025, "cacheWrite": 0 }
+        }
+      ]
+    },
+    "deepseek": {
+      "baseUrl": "https://api.deepseek.com/anthropic",
+      "api": "anthropic-messages",
+      "apiKey": "${DEEPSEEK_API_KEY}",
+      "models": [
+        {
+          "id": "deepseek-v4-flash",
+          "name": "DeepSeek V4 Flash",
+          "reasoning": true,
+          "thinkingLevelMap": { "minimal": null, "low": null, "medium": null, "high": "high", "xhigh": "max"},
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
+          "input": ["text"],
+          "cost": { "input": 1, "output": 2, "cacheRead": 0.02, "cacheWrite": 0 }
+        },
+        {
+          "id": "deepseek-v4-pro",
+          "name": "DeepSeek V4 Pro",
+          "reasoning": true,
+          "thinkingLevelMap": { "minimal": null, "low": null, "medium": null, "high": "high", "xhigh": "max"},
+          "contextWindow": 1000000,
+          "maxTokens": 384000,
+          "input": ["text"],
+          "cost": { "input": 3, "output": 6, "cacheRead": 0.025, "cacheWrite": 0 }
+        }
+      ]
+    },
+    "aliyun": {
+      "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "api": "openai-responses",
+      "apiKey": "${ALIYUN_API_KEY}",
+      "models": [
+        {
+          "id": "qwen3.7-plus",
+          "name": "qwen3.7 plus",
+          "reasoning": true,
+          "input": ["text", "image"],
+          "contextWindow": 1000000,
+          "maxTokens": 64000,
+          "cost": { "input": 2, "output": 8, "cacheRead": 0.4, "cacheWrite": 2 }
+        }
+      ]
+    }
+  }
+}

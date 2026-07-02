@@ -8,7 +8,7 @@
     "npm:@yandy0725/pi-vision-tools",
     "npm:@yandy0725/pi-ask-user"
   ],
-  "lastChangelogVersion": "0.80.2",
+  "lastChangelogVersion": "0.80.3",
   "theme": "catppuccin-mocha",
   "defaultProvider": "deepseek",
   "defaultModel": "deepseek-v4-flash",

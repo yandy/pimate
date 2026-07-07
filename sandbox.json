@@ -1,0 +1,10 @@
+{
+  "runtime": {
+    "env": [
+        "GITHUB_TOKEN=$(gh auth token)"
+    ],
+    "mounts": [
+        { "source": "~/.config/glab-cli", "target": "/home/pi/.config/glab-cli" }
+    ]
+  }
+}

@@ -9,7 +9,7 @@
     "npm:@yandy0725/pi-ask-user",
     "npm:@yandy0725/pi-memory"
   ],
-  "lastChangelogVersion": "0.80.6",
+  "lastChangelogVersion": "0.80.7",
   "theme": "catppuccin-mocha",
   "defaultProvider": "deepseek",
   "defaultModel": "deepseek-v4-flash",

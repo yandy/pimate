@@ -53,7 +53,7 @@
       ]
     },
     "aliyun": {
-      "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "baseUrl": "https://${ALIYUN_WORKSPACE_ID}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
       "api": "openai-responses",
       "apiKey": "${ALIYUN_API_KEY}",
       "models": [

@@ -7,7 +7,9 @@
     "npm:@yandy0725/pi-todo",
     "npm:@yandy0725/pi-vision-tools",
     "npm:@yandy0725/pi-ask-user",
-    "npm:@yandy0725/pi-memory"
+    "npm:@yandy0725/pi-memory",
+    "npm:@yandy0725/pi-dingtalk",
+    "npm:@yandy0725/pi-lark"
   ],
   "lastChangelogVersion": "0.80.10",
   "theme": "catppuccin-mocha",

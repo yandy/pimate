@@ -32,6 +32,13 @@ pimate() {
 }
 ```
 
+### build container image
+
+```sh
+cd ~/.pi/agent-mate
+docker build -t pi-container-sandbox:pimate -f pimate.Dockerfile .
+```
+
 ## 2. Skills Management
 
 ### 2.1 Add skill
@@ -74,12 +81,6 @@ npx skills ls -a pi
 # npx skills add anthropics/skills --skill pdf docx pptx xlxs -a pi -y
 ```
 
-- ui/ux
-
-```sh
-# npx skills add alchaincyf/huashu-design --skill huashu-design -a pi -y
-```
-
 - browser automation
 
 ```sh
@@ -88,9 +89,9 @@ playwright install chromium firefox
 # npx skills add microsoft/playwright-cli --skill playwright-cli -a pi -y
 ```
 
-- [context7](https://github.com/upstash/context7)
+- [glab](https://gitlab.com/gitlab-org/cli/)
 
 ```sh
-npx ctx7 login
-# npx ctx7 setup --pi
+pacman -S glab # or install from https://gitlab.com/gitlab-org/cli/-/releases
+# glab skills install --path .pi/skills/
 ```

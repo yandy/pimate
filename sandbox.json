@@ -1,10 +1,15 @@
 {
+  "image": { "name": "pi-container-sandbox", "tag": "pimate" },
   "runtime": {
     "env": [
         "GITHUB_TOKEN=$(gh auth token)"
     ],
     "mounts": [
-        { "source": "~/.config/glab-cli", "target": "/home/pi/.config/glab-cli" }
+        { "source": "~/.config/glab-cli", "target": "/home/pi/.config/glab-cli" },
+        { "source": "~/.lark-cli/", "target": "/home/pi/.lark-cli/", "mode": "rw" },
+        { "source": "~/.local/share/lark-cli/", "target": "/home/pi/.local/share/lark-cli/", "mode": "rw" },
+        { "source": "~/.dws/", "target": "/home/pi/.dws/", "mode": "rw" },
+        { "source": "~/.local/share/dws-cli/", "target": "/home/pi/.local/share/dws-cli/", "mode": "rw" }
     ]
   }
 }

@@ -7,12 +7,6 @@
       "skillPath": "skills/docx/SKILL.md",
       "computedHash": "6962db07127ee540a56e4677f65576d0727668a1d67f7da8bc978f10791c2bfe"
     },
-    "huashu-design": {
-      "source": "alchaincyf/huashu-design",
-      "sourceType": "github",
-      "skillPath": "SKILL.md",
-      "computedHash": "2d1d204d4508add50cefdb405ecfbc1920f31d2272718eadecf286e558fe178d"
-    },
     "pdf": {
       "source": "anthropics/skills",
       "sourceType": "github",

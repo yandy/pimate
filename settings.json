@@ -15,5 +15,6 @@
   "theme": "catppuccin-mocha",
   "defaultProvider": "deepseek",
   "defaultModel": "deepseek-v4-flash",
-  "defaultThinkingLevel": "high"
+  "defaultThinkingLevel": "high",
+  "hideThinkingBlock": false
 }

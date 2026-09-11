@@ -11,10 +11,10 @@
     "npm:@yandy0725/pi-dingtalk",
     "npm:@yandy0725/pi-lark"
   ],
-  "lastChangelogVersion": "0.84.2",
+  "lastChangelogVersion": "0.85.1",
   "theme": "catppuccin-mocha",
   "defaultProvider": "deepseek",
-  "defaultModel": "deepseek-v4-flash",
+  "defaultModel": "deepseek-flash",
   "defaultThinkingLevel": "high",
   "hideThinkingBlock": false
 }
